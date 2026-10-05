@@ -1,0 +1,35 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+.vite/
+.wrangler/
+
+# Temporários
+*.tmp
+*.temp
+.playwright-cli/
+
+# Ambiente
+.env
+.env.local
+.env.production
+

@@ -1,0 +1,17 @@
+{
+  "name": "carlife-site",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "\u30ab\u30fc\u30e9\u30a4\u30d5\u897f\u4eac\u90fd \u2014 Nantan",
+  "scripts": {
+    "pages": "node scripts/generate-pages.mjs",
+    "dev": "node scripts/generate-pages.mjs && vite",
+    "build": "node scripts/generate-pages.mjs && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx wrangler deploy"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "wrangler": "^4.133.0"
+  }
+}
